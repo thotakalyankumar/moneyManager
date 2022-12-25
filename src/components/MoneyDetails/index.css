@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.multi-Card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px;
+  min-height: 200px;
+}
+.Multi-card1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ecfccb;
+  width: 30%;
+  margin-right: 0px;
+  border: 1px solid #84cc16;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+.image {
+  width: 64px;
+  height: 64px;
+  margin: 24px;
+}
+.your-balance {
+  color: #475569;
+  font-size: 18px;
+  font-family: 'Roboto';
+  line-height: 1.7;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+.balance-amount {
+  color: #475569;
+  font-size: 24px;
+  font-family: 'Roboto';
+  line-height: 1.3;
+  margin: 0px;
+}
+.Multi-card2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #cffafe;
+  width: 30%;
+  margin-right: 0px;
+  border: 1px solid #06b6d4;
+  border-radius: 16px;
+
+  margin-bottom: 16px;
+}
+.Multi-card3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ede9fe;
+  width: 30%;
+  margin-right: 0px;
+  border: 1px solid #7c3aed;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
